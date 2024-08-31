@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./input.css">
 </head>
-<body class="bg-[#F2F2F2]">
+<body class="bg-[#F2F2F2] text-xl">
+    <!-- Nav -->
    <nav class="ubuntu-regular w-full ">
-        <div class="max-w-[1150px]  m-auto pt-4 flex flex-row items-center justify-between">
+        <div class="m-auto pt-4 px-7 flex flex-row items-center justify-between box-border md:max-w-[700px] 2md:max-w-[800px] xmd:max-w-[900px] sm:max-w-[100%] xm:max-w-[100%]  xsm:p-0 lg:max-w-[1300px] lg:px-4 ">
             <div class="flex flex-row items-center">
                 <img src="./img/Group 1.svg" alt="" class="">
                 DreamRoute
             </div>
-            <div>
+            <div class="xsm:hidden lg:block">
                 <ul class="flex flex-row items-center list-none gap-3">
                     <li class="flex flex-row items-center gap-3">
                         <a href="" class="no-underline text-black">Travel Guides</a>
@@ -33,147 +34,311 @@
                     </li>
                 </ul>
             </div>
-            <div class="flex flex-row items-center gap-3">
-                <button class="bg-[#D66214] text-white p-2 rounded-lg">Get Started</button>
-                <button class="bg-[#D66214] text-white p-2 rounded-lg">Book a Hotel</button>
+            <div class="lg:block xsm:hidden">
+                <div class="flex items-center gap-7">
+                    <button class="bg-[#D66214] text-white px-3 py-2 rounded-lg">Get Started</button>
+                    <button class="bg-[#D66214] text-white px-3 py-2 rounded-lg">Book a Hotel</button>
+                </div>
             </div>
-            
+            <div class="xsm:block lg:hidden">
+                <img src="./img/Menu.png" alt="">
+            </div>
         </div>
         
     </nav>
-    <div class="max-w-[1150px] m-auto flex flex-row ubuntu-regular pt-[40px]">
-        <div class="w-[50%] border border-red-900">
-            <p class="ubuntu-medium mb-2"><strong>Unleash your journey with seamless bookings and unforgettable experiences.</strong></p>
-            <p class="ubuntu-light-italic mb-2">Embark on Your Next Adventure: Seamless Bookings, Unforgettable Memories</p>
-            <div class="flex flex-row items-center gap-3 mb-5">
-                <button class="bg-[#D66214] text-white p-2 rounded-lg">Explore Deals</button>
-                <button class="bg-[#D66214] text-white p-2 rounded-lg">Book a Flight</button>
-            </div>
 
-            <div class="flex flex-row flex-wrap  justify-between just w-50 border border-red-900">
-                <a href="">
-                    <img class="w-[100%]" src="./img/airbnb.png" alt="">
-                </a>
-                <a href="">
-                    <img class="w-[100%]" src="./img/uber.png" alt="">
-                </a>
-                <a href="">
-                    <img class="w-[100%]" src="./img/patagonia.png" alt="">
-                </a>
-                <a href="">
-                    <img class="w-[60%]" src="./img/expedia.png" alt="">
-                </a>
-                <a href="">
-                    <img class="w-[60%]" src="./img/herzt.png" alt="">
-                </a>
-                <a href="">
-                    <img class="w-[60%]" src="./img/Hilton.png" alt="">
-                </a>
-                <a href="">
-                    <img class="w-[60%]" src="./img/emirates.png" alt="">
-                </a>
-            </div>
-        </div>
+    <!-- 1 -->
+    <div class="w-full xsm:mb-10">
+        <div class="md:max-w-[700px] 2md:max-w-[800px] xmd:max-w-[900px] sm:max-w-[100%] xm:max-w-[100%] lg:max-w-[980px] xl:max-w-[1200px] m-auto flex xsm:flex-col xmd:flex-row ubuntu-regular pt-[40px]">
+            <div class="xsm:w-[100%]">
+                <p class="ubuntu-medium mb-2 text-3xl"><strong>Unleash your journey with seamless bookings and unforgettable experiences.</strong></p>
+                <p class="ubuntu-light-italic mb-2 text-[#787676]">Embark on Your Next Adventure: Seamless Bookings, Unforgettable Memories</p>
+                <div class="flex flex-row items-center gap-3 mb-5 xsm:hidden">
+                    <button class="text-white p-2 rounded-md">Explore Deals</button>
+                    <button class="text-white p-2 rounded-md">Book a Flight</button>
+                </div>
     
-        <div class="w-[50%]">
-            <img src="./img/Group 24.svg" alt="" class="w-[10%]">
+                <div class="w-[100%] xsm:hidden xmd:block">
+                    <!-- <a href="">
+                        <img class="w-[100%]" src="./img/airbnb.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="w-[100%]" src="./img/uber.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="w-[100%]" src="./img/patagonia.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="w-[60%]" src="./img/expedia.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="w-[60%]" src="./img/herzt.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="w-[60%]" src="./img/Hilton.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="w-[60%]" src="./img/emirates.png" alt="">
+                    </a> -->
+                    <div class="mb-7">
+                        <img src="./img/sponsor.svg" alt="">
+                    </div>
+                    <div class="flex gap-3">
+                        <a href="">
+                            <img class="w-[100%]" src="./img/google play.png" alt="">
+                        </a>
+                        <a href="">
+                            <img class="w-[100%]" src="./img/app store.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="xsm:w-[100%] xsm:flex-col flex items-start ">
+                <img src="./img/Group 24.svg" alt="" class="w-[100%]">
+
+                <div class="xm:w-[95%] m-auto xmd:hidden">
+                    <div class="flex flex-row items-center gap-3 mb-5">
+                        <button class="text-white p-2 rounded-md bg-[#D66214]">Explore Deals</button>
+                        <button class="text-white p-2 rounded-md bg-[#D66214]">Book a Flight</button>
+                    </div>
+        
+                    <div class="w-[100%]">
+                        <div class="mb-7">
+                            <img src="./img/sponsor.svg" alt="">
+                        </div>
+                        <div class="flex gap-3 xsm:justify-between xm:justify-center xm:gap-3">
+                            <a href="">
+                                <img class="w-[100%]" src="./img/google play.png" alt="">
+                            </a>
+                            <a href="">
+                                <img class="w-[100%]" src="./img/app store.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- 2 -->
+    <div class="w-[100%]">
+        <div class="sm:max-w-[1800px] xsm:w-[95%] xsm:mb-10 m-auto">
+            <div class="ubuntu-medium">
+                <p class="text-2xl xsm:text-center md:!text-left">
+                    <strong>Top Visited Destination</strong>
+                </p>
+             <div class="flex flex-wrap gap-x-2 gap-y-10 xl:justify-between pt-5 w-[97%] m-auto  sm:justify-between">
+                     <div class="rounded-lg 2xl:w-[20%] sm:w-[45%] xsm:w-[100%] box-border p-4 bg-[#ffffff] border">
+                         <img src="./img/Douro river.svg" alt="" class="w-[100%]">
+                         <div class="">
+                             <p class="my-3 ubuntu-regular"><strong>Patagonia</strong> </p>
+                             <span class="mb-4 flex gap-2 items-center ubuntu-light">
+                                 <img src="./img/locate.png" alt="">
+                                 Argentina
+                             </span>
+                             <p class="text-[#D66214] ubuntu-medium">$6,500/Group</p>
+                         </div>
+                     </div>
+                     <div class="rounded-lg 2xl:w-[20%] sm:w-[45%] xsm:w-[100%] box-border p-4 bg-[#ffffff] border">
+                         <img src="./img/mexico.svg" alt="" class="w-[100%]">
+                         <div class="">
+                             <p class= "ubuntu-regular my-3"><strong>Cancun</strong></p>
+                             <span class="mb-4 flex gap-2 items-center ubuntu-light">
+                                 <img src="./img/locate.png" alt="">
+                                 Mexico
+                             </span>
+                             <p class="text-[#D66214] ubuntu-medium">$3,500/Person</p>
+                         </div>
+                     </div>
+                     <div class="rounded-lg 2xl:w-[20%] sm:w-[45%] xsm:w-[100%] box-border p-4 bg-[#ffffff] border">
+                         <img src="./img/japan.svg" alt="" class="w-[100%]">
+                         <div class="">
+                             <p class="ubuntu-regular my-3"><strong>Kyoto</strong></p>
+                             <span class="mb-4 flex gap-2 items-center ubuntu-light">
+                                 <img src="./img/locate.png" alt="">
+                                 Japan
+                             </span>
+                             <p class="text-[#D66214] ubuntu-medium">$4000/Person</p>
+                         </div>
+                     </div>
+                     <div class="rounded-lg 2xl:w-[20%] sm:w-[45%] xsm:w-[100%] box-border p-4 bg-[#ffffff] border">
+                         <img src="./img/Greece.svg" alt="" class="w-[100%]">
+                         <div class="">
+                             <p class="my-3 ubuntu-regular"><strong>Santorini</strong></p>
+                             <span class="mb-4 flex gap-2 items-center ubuntu-light">
+                                 <img src="./img/locate.png" alt="">
+                                 Greece
+                             </span>
+                             <p class="text-[#D66214] ubuntu-medium">$7000/Group</p>
+                         </div>
+                     </div>
+                     <div class="rounded-lg 2xl:w-[20%] sm:w-[45%] xsm:w-[100%] box-border p-4 bg-[#ffffff] border">
+                         <img src="./img/Denmark.svg" alt="" class="w-[100%]">
+                         <div class="">
+                             <p class= "ubuntu-regular my-3"><strong>Alborg</strong></p>
+                             <span class="mb-4 flex gap-2 items-center ubuntu-light">
+                                 <img src="./img/locate.png" alt="">
+                                 Denmark
+                             </span>
+                             <p class="text-[#D66214] ubuntu-medium">$7,500/Group</p>
+                         </div>
+                     </div>
+                     <div class="rounded-lg 2xl:w-[20%] sm:w-[45%] xsm:w-[100%] box-border p-4 bg-[#ffffff] border">
+                         <img src="./img/India.svg" alt="" class="w-[100%]">
+                         <div class="">
+                             <p class="ubuntu-regular my-3"><strong>Rajasthan</strong></p>
+                             <span class="mb-4 flex gap-2 items-center ubuntu-light">
+                                 <img src="./img/locate.png" alt="">
+                                 India
+                             </span>
+                             <p class="">$4,000/Person</p>
+                         </div>
+                     </div>
+                     <div class="rounded-lg 2xl:w-[20%] sm:w-[45%] xsm:w-[100%] box-border p-4 bg-[#ffffff] border">
+                         <img src="./img/missouri.svg" alt="" class="w-[100%]">
+                         <div class="">
+                             <p class="my-3 ubuntu-regular"><strong>Kansas City</strong></p>
+                             <span class="mb-4 flex gap-2 items-center ubuntu-light">
+                                 <img src="./img/locate.png" alt="">
+                                 Missouri
+                             </span>
+                             <p class="text-[#D66214] ubuntu-medium">$5000/Person</p>
+                         </div>
+                     </div>
+                     <div class="rounded-lg 2xl:w-[20%] sm:w-[45%] xsm:w-[100%] box-border p-4 bg-[#ffffff] border">
+                         <img src="./img/portugal.svg" alt="" class="w-[100%]">
+                         <div class="">
+                             <p class="my-3 ubuntu-regular"><strong>Douro River</strong></p>
+                             <span class="mb-4 flex gap-2 items-center ubuntu-light">
+                                 <img src="./img/locate.png" alt="">
+                                 Portugal
+                             </span>
+                             <p class="text-[#D66214] ubuntu-medium">$9000/Group</p>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3 -->
 
     <div class="w-[100%]">
-       <div class="w-[90%] m-auto">
-        Top Visited Destination
-        <div class="flex flex-wrap w-[95%] m-auto gap-5 justify-between pt-5">
-                <div class="rounded-lg w-[20%] box-border p-4 bg-[#ffffff] border xl:w-[30%] md:justify-center">
-                    <img src="./img/Douro river.svg" alt="" class="w-[100%]">
-                    <div class="">
-                        <p class="">Patagonia</p>
-                        <span class="mb-3 flex gap-2 items-center">
-                            <img src="./img/locate.png" alt="">
-                            Argentina
-                        </span>
-                        <p class="">$6,500/Group</p>
-                    </div>
-                </div>
-                <div class="rounded-lg w-[20%] box-border p-4 bg-[#ffffff] border xl:w-[30%] xl:justify-center">
-                    <img src="./img/mexico.svg" alt="" class="w-[100%]">
-                    <div class="">
-                        <p class="">Cancun</p>
-                        <span class="mb-3 flex gap-2 items-center">
-                            <img src="./img/locate.png" alt="">
-                            Mexico
-                        </span>
-                        <p class="">$3,500/Person</p>
-                    </div>
-                </div>
-                <div class="rounded-lg w-[20%] box-border p-4 bg-[#ffffff] border xl:w-[30%] xl:justify-center">
-                    <img src="./img/japan.svg" alt="" class="w-[100%]">
-                    <div class="">
-                        <p class="">Kyoto</p>
-                        <span class="mb-3 flex gap-2 items-center">
-                            <img src="./img/locate.png" alt="">
-                            Japan
-                        </span>
-                        <p class="">$4000/Person</p>
-                    </div>
-                </div>
-                <div class="rounded-lg w-[20%] box-border p-4 bg-[#ffffff] border xl:w-[30%] xl:justify-center">
-                    <img src="./img/Greece.svg" alt="" class="w-[100%]">
-                    <div class="">
-                        <p class="">Santorini</p>
-                        <span class="mb-3 flex gap-2 items-center">
-                            <img src="./img/locate.png" alt="">
-                            Greece
-                        </span>
-                        <p class="">$7000/Group</p>
-                    </div>
-                </div>
-                <div class="rounded-lg w-[20%] box-border p-4 bg-[#ffffff] border xl:w-[30%] xl:justify-center">
-                    <img src="./img/Denmark.svg" alt="" class="w-[100%]">
-                    <div class="">
-                        <p class="">Alborg</p>
-                        <span class="mb-3 flex gap-2 items-center">
-                            <img src="./img/locate.png" alt="">
-                            Denmark
-                        </span>
-                        <p class="">$7,500/Group</p>
-                    </div>
-                </div>
-                <div class="rounded-lg w-[20%] box-border p-4 bg-[#ffffff] border xl:w-[30%] xl:justify-center">
-                    <img src="./img/India.svg" alt="" class="w-[100%]">
-                    <div class="">
-                        <p class="">Rajasthan</p>
-                        <span class="mb-3 flex gap-2 items-center">
-                            <img src="./img/locate.png" alt="">
-                            India
-                        </span>
-                        <p class="">$4,000/Person</p>
-                    </div>
-                </div>
-                <div class="rounded-lg w-[20%] box-border p-4 bg-[#ffffff] border xl:w-[30%] xl:justify-center">
-                    <img src="./img/missouri.svg" alt="" class="w-[100%]">
-                    <div class="">
-                        <p class="">Kansas City</p>
-                        <span class="mb-3 flex gap-2 items-center">
-                            <img src="./img/locate.png" alt="">
-                            Missouri
-                        </span>
-                        <p class="">$5000/Person</p>
-                    </div>
-                </div>
-                <div class="rounded-lg w-[20%] box-border p-4 bg-[#ffffff] border xl:w-[30%] xl:justify-center">
-                    <img src="./img/portugal.svg" alt="" class="w-[100%]">
-                    <div class="">
-                        <p class="">Douro River</p>
-                        <span class="mb-3 flex gap-2 items-center">
-                            <img src="./img/locate.png" alt="">
-                            Portugal
-                        </span>
-                        <p class="">$9000/Group</p>
-                    </div>
+        <div class="flex xsm:flex-col-reverse xsm:w-[95%] md:w-[90%] xmd:flex-row lg:w-[100%]  xsm:pt-4 sm:w-[86.9%] m-auto">
+            <div class="w-[100%] lg:w-50">
+                <img src="./img/Group30.svg" alt="" class="xsm:w-[100%] xmd:-translate-y-32 xm:-translate-y-28">
+            </div>
+
+            <div class="w-[50%] xsm:w-[100%] xl:mt-16 2xl:mt-28">
+                <h2 class="flex gap-2 items-center ubuntu-regular font-bold text-xl my-3">Welcome to DREAMROUTE <span><img src="./img/Vector.svg" alt=""></span></h2>
+                <p>Your journey begins here. At DREAMROUTE, we believe that every journey is an opportunity to create unforgettable memories. Whether you're planning a serene beach vacation, a thrilling mountain adventure, or a bustling city escape, we've got you covered.</p>
+                <p class="my-3">Explore the World with Us</p>
+                <p class="xsm:hidden">DREAMROUTE is your gateway to discovering the world's most captivating destinations. With a vast selection of handpicked hotels, convenient car rentals, and tailored vacation packages, we make it easy for you to plan the perfect trip.</p>
+                <div class="w-full">
+                    <p class="my-3 xmd:ml-[25px] xl:ml-[30px] 2xl:ml-[37px]">Our Services</p>
+                    <p class="flex mb-2">
+                        <span class="mt-[5px] mr-[10px] xsm:hidden xmd:block"><img src="./img/service.png" alt=""></span>
+                        Hotel Reservations: Find your ideal stay from our extensive list of hotels and resorts, whether you're seeking luxury, comfort, or budget-friendly options.
+                    </p>
+                    <p class="flex mb-2">
+                        <span class="mt-[5px] mr-[10px] xsm:hidden xmd:block"><img src="./img/car.png" alt=""></span>
+                        Car Rentals: Get the freedom to explore at your own pace with our reliable car rental services. From compact cars to spacious SUVs, we have the right vehicle for your needs.
+                    </p>
+                    <p class="flex mb-2">
+                        <span class="mt-[5px] mr-[10px] xsm:hidden xmd:block"><img src="./img/vacation.png" alt=""></span>
+                        Vacation Packages: Take the stress out of planning with our curated vacation packages. Enjoy a seamless experience from start to finish, with everything arranged for you.
+                    </p>
                 </div>
             </div>
-       </div>
+        </div>
     </div>
+
+    <!-- 4 -->
+
+    <div class="w-full relative xsm:-mt-[40%] xm:-mt-[60%] xmd:-mt-[10%] mb-[100px]">
+        <div class="md:max-w-[700px] 2md:max-w-[800px] xmd:max-w-[900px] sm:max-w-[100%] xm:max-w-[100%] lg:max-w-[980px] xl:max-w-[1200px] m-auto">
+            <div class="mb-10">
+                <h2 class="text-center">Plan Your Vacation</h2>
+                <p class="text-center">Register Today, Travel Tomorrow—Your Dream Vacation Awaits!</p>
+            </div>
+            <div class="w-full">
+                <img src="./img/Plan.svg" alt="">
+            </div>
+            <div class="xsm:w-[8%] xsm:top-[200px] xm:top-[250px] sm:top-[350px] md:top-[400px] xmd:top-[40px] absolute right-0">
+                <img class="" src="./img/Ellipse-right.svg" alt="">
+    
+            </div>
+            <div class="xsm:w-[8%] xsm:top-[40px] xm:top-[60px] sm:top-[50px] xmd:top-[500px] absolute left-0">
+                <img class="" src="./img/Ellipse-left.svg" alt="">
+            </div>
+        </div>
+        <div class="w-[80%] m-auto flex flex-col items-center">
+            <button class="text-white uppercase bg-[#D66214] rounded-xl px-5 py-2 mb-2">Start playing now</button>
+            <p class="text-center">Exclusive deals and personalized itineraries await—Sign up to unlock your dream getaway!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="w-full bg-[#155956] text-xl py-8 box-border">
+        <div class="xsm:w-[95%] m-auto bg-[url('./img/footer.svg')] bg-center">
+            <div class="flex gap-3 xsm:flex-col xsm:items-start xxm:flex-row xxm:items-center text-white items-center mb-10 box-border pt-5">
+                <img src="./img/Group 1.svg" alt="">
+                <p class="ubuntu-light !italic">Your trusted partner in exploring the world, offering seamless vacation planning, hotel reservations, and car rentals.</p>
+            </div>
+            <div class="flex flex-wrap xxm:justify-between">
+                <div class="xsm:w-[100%] xxm:w-[45%] xmd:w-[30%] xl:w-[25%] mb-7 text-white ubuntu-regular">
+                    <h2 class="font-bold text-white mb-5">QUICK LINKS</h2>
+                    <ul class="flex flex-col gap-3">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Plan Your Vacation</a></li>
+                        <li><a href="">Destinations</a></li>
+                        <li><a href="">Hotel Reservations</a></li>
+                        <li><a href="">Car Rentals</a></li>
+                        <li><a href="">Vacation Packages</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="xsm:w-[100%] xxm:w-[45%] xmd:w-[30%] xl:w-[25%] mb-7 text-white ubuntu-medium">
+                    <h2 class="font-bold text-white mb-5">CUSTOMER SUPPORT</h2>
+                    <ul class="flex flex-col gap-3">
+                        <li><a href="">Help Center</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Cancellation Policy</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="xsm:w-[100%] xxm:w-[45%] xmd:w-[30%] xl:w-[25%] mb-7 text-white ubuntu-medium">
+                    <h2 class="font-bold text-white mb-5">CONTACT INFORMATION</h2>
+                    <ul class="flex flex-col gap-3">
+                        <li><a href="">Phone: +1-800-123-4567</a></li>
+                        <li><a href="">Email: support@dreamroute.com</a></li>
+                        <li><a href="">Address: 1234 Travel Lane, Wanderlust City, <br> TX 78901, USA</a></li>
+                    </ul>
+                </div>
+                <div class="xsm:w-[100%] xxm:w-[45%] xmd:w-[30%] xl:w-[25%] xmd:grow xl:grow-0 mb-7 text-white ubuntu-medium">
+                    <h2 class="font-bold text-white mb-5">NEWSLETTER SIGNUP</h2>
+                    <p>Subscribe to our newsletter:</p>
+                    <p class="ubuntu-regular italic">Get the latest travel deals, tips, and inspiration delivered straight to your inbox.</p>
+                </div>
+            </div>
+            <div class="md:flex md:items-center md:justify-between lg:w-[70%] xl:w-[50%] float-right">
+                <input type="text" name="" id="" placeholder="EMAIL ADDRESS" class="rounded-xl outline-none px-3 ubuntu-medium text-[#D66214] xsm:w-[100%] xsm:mb-2 md:w-[75%] xl:w-[70%] h-[50px]">
+                <button class="uppercase bg-[#D66214] px-3 py-2 xsm:w-[100%] md:w-[20%] xl:w-[25%] rounded-xl text-white mb-1 h-[50px]">Subscribe</button>
+            </div>
+            <hr class="my-2 clear-both">
+            <div class="flex justify-between xsm:flex-col text-white">
+                <p>© 2024 DREAMROUTE. All Rights Reserved.</p>
+                <div class="flex gap-3">
+                    <a href=""><img src="./img/ig.png" alt=""></a>
+                    <a href=""><img src="./img/x.png" alt=""></a>
+                    <a href=""> <img src="./img/facebook.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
