@@ -7,6 +7,7 @@ module.exports = (sequelize, Sequelize) => {
               type: Sequelize.INTEGER,
               primaryKey: true,
             },
+
             name: {
               type: Sequelize.STRING,
               allowNull: false,
@@ -27,6 +28,8 @@ module.exports = (sequelize, Sequelize) => {
       },
       { }
   )
-  
+    User.associate = (models) => {
+      User.hasOne(models.Profile);
+    }
     return User;
   };
