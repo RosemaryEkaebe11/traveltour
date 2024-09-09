@@ -749,6 +749,14 @@ video {
   height: 100vh;
 }
 
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[\] {
+  height: ;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -813,6 +821,10 @@ video {
   width: 100%;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .list-none {
   list-style-type: none;
 }
@@ -839,6 +851,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -968,6 +984,16 @@ video {
 .bg-red-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
+.bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\/img\/Aboutus\.png\'\)\] {
@@ -1353,8 +1379,20 @@ video {
     width: 100%;
   }
 
+  .xsm\:w-\[0\%\] {
+    width: 0%;
+  }
+
+  .xsm\:w-\[80\%\] {
+    width: 80%;
+  }
+
   .xsm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .xsm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xsm\:flex-col {
@@ -1456,6 +1494,10 @@ video {
     display: inline;
   }
 
+  .sm\:grid {
+    display: grid;
+  }
+
   .sm\:w-\[45\%\] {
     width: 45%;
   }
@@ -1472,6 +1514,22 @@ video {
     width: 70%;
   }
 
+  .sm\:w-\[8\] {
+    width: 8;
+  }
+
+  .sm\:w-\[\] {
+    width: ;
+  }
+
+  .sm\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .sm\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .sm\:max-w-\[100\%\] {
     max-width: 100%;
   }
@@ -1486,6 +1544,11 @@ video {
 
   .sm\:justify-between {
     justify-content: space-between;
+  }
+
+  .sm\:bg-red-950 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(69 10 10 / var(--tw-bg-opacity));
   }
 }
 
@@ -1538,6 +1601,10 @@ video {
     align-items: center;
   }
 
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -1584,6 +1651,10 @@ video {
     width: 80%;
   }
 
+  .xmd\:w-full {
+    width: 100%;
+  }
+
   .xmd\:max-w-\[900px\] {
     max-width: 900px;
   }
@@ -1599,6 +1670,10 @@ video {
 
   .xmd\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xmd\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .xmd\:flex-row {
@@ -1639,12 +1714,36 @@ video {
     width: 100%;
   }
 
+  .lg\:w-5 {
+    width: 1.25rem;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .lg\:max-w-\[1300px\] {
     max-width: 1300px;
   }
 
   .lg\:max-w-\[980px\] {
     max-width: 980px;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:px-4 {
@@ -1678,12 +1777,38 @@ video {
     width: 70%;
   }
 
+  .xl\:w-60 {
+    width: 15rem;
+  }
+
+  .xl\:w-\[\] {
+    width: ;
+  }
+
+  .xl\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .xl\:w-full {
+    width: 100%;
+  }
+
   .xl\:max-w-\[1200px\] {
     max-width: 1200px;
   }
 
   .xl\:grow-0 {
     flex-grow: 0;
+  }
+
+  .xl\:bg-green-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-blue-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(96 165 250 / var(--tw-bg-opacity));
   }
 }
 
